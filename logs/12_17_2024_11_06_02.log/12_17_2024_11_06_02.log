@@ -1,0 +1,28 @@
+[ 2024-12-17 11:06:16,534 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-12-17 11:06:28,361 ] 149 tensorflow - WARNING - From C:\Users\Praka\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[ 2024-12-17 11:06:29,791 ] 149 tensorflow - WARNING - From C:\Users\Praka\anaconda3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+[ 2024-12-17 11:07:21,471 ] 12 root - INFO - DataIngestion Started
+[ 2024-12-17 11:07:21,471 ] 14 root - INFO - Extracting Text from Pdf Files
+[ 2024-12-17 11:07:22,852 ] 22 root - INFO - Text Extracted
+[ 2024-12-17 11:07:22,852 ] 24 root - INFO - Data Ingestion completed
+[ 2024-12-17 11:07:27,278 ] 12 root - INFO - DataIngestion Started
+[ 2024-12-17 11:07:27,279 ] 14 root - INFO - Extracting Text from Pdf Files
+[ 2024-12-17 11:07:28,502 ] 22 root - INFO - Text Extracted
+[ 2024-12-17 11:07:28,503 ] 24 root - INFO - Data Ingestion completed
+[ 2024-12-17 11:07:28,510 ] 15 root - INFO - Summarization started
+[ 2024-12-17 11:07:28,510 ] 18 root - INFO - Accessing LLama3 Model from Chatgroq
+[ 2024-12-17 11:07:29,329 ] 22 root - INFO - LLama3 model accessed from chatgroq
+[ 2024-12-17 11:07:29,331 ] 24 root - INFO - Creating Summarize Chain
+[ 2024-12-17 11:07:29,343 ] 31 root - INFO - Running The chain
+[ 2024-12-17 11:07:30,358 ] 1026 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-12-17 11:07:31,389 ] 1026 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-12-17 11:07:32,511 ] 1026 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-12-17 11:07:33,625 ] 1026 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-12-17 11:07:34,606 ] 1026 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-12-17 11:07:34,608 ] 34 root - INFO - Text Summarization completed
+[ 2024-12-17 11:07:34,611 ] 10 root - INFO - Keyword extraction started
+[ 2024-12-17 11:07:34,628 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-12-17 11:07:34,628 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-12-17 11:07:42,545 ] 19 root - INFO - Keywords Extracted
